@@ -1,6 +1,8 @@
 using EventManagement.Data;
 using EventManagement.Data.Repositories;
 using EventManagement.Data.UnitOfWork;
+using EventManagement.Service;
+using EventManagement.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +22,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddTransient<IUnitOfWork,UnitOfWork>();
+builder.Services.AddTransient<IUserService,UserService>();
 
 var app = builder.Build();
 
