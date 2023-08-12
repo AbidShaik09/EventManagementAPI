@@ -1,0 +1,14 @@
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\bin\Debug\net6.0\EventManagement.Data.deps.json
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\bin\Debug\net6.0\EventManagement.Data.dll
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\bin\Debug\net6.0\EventManagement.Data.pdb
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\EventManagement.Data.csproj.AssemblyReference.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\EventManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\EventManagement.Data.AssemblyInfoInputs.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\EventManagement.Data.AssemblyInfo.cs
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\EventManagement.Data.csproj.CoreCompileInputs.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\EventManagement.Data.dll
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\refint\EventManagement.Data.dll
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\EventManagement.Data.pdb
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\ref\EventManagement.Data.dll
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\bin\Debug\net6.0\EventManagement.Data.runtimeconfig.json
+C:\Users\Venkatsai_Jeevanagar\source\repos\EventManagement.Data\obj\Debug\net6.0\EventManagement.Data.genruntimeconfig.cache
