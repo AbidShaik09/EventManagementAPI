@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Data\\EventManagement.Data.csproj": {}
+    "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Data\\EventManagement.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Data\\EventManagement.Data.csproj": {
+    "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Data\\EventManagement.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Data\\EventManagement.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Data\\EventManagement.Data.csproj",
         "projectName": "EventManagement.Data",
-        "projectPath": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Data\\EventManagement.Data.csproj",
-        "packagesPath": "C:\\Users\\Venkatsai_Jeevanagar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Data\\obj\\",
+        "projectPath": "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Data\\EventManagement.Data.csproj",
+        "packagesPath": "C:\\Users\\Knight\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Venkatsai_Jeevanagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Knight\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

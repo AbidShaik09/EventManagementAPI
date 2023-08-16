@@ -987,6 +987,19 @@
         "runtime": {
           "bin/placeholder/EventManagement.Data.dll": {}
         }
+      },
+      "EventManagement.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EventManagement.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EventManagement.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventManagement.Service.dll": {}
+        }
       }
     }
   },
@@ -3051,31 +3064,36 @@
       "type": "project",
       "path": "../EventManagement.Data/EventManagement.Data.csproj",
       "msbuildProject": "../EventManagement.Data/EventManagement.Data.csproj"
+    },
+    "EventManagement.Service/1.0.0": {
+      "type": "project",
+      "path": "../EventManagement.Service/EventManagement.Service.csproj",
+      "msbuildProject": "../EventManagement.Service/EventManagement.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Service\\EventManagement.Service.csproj",
       "EventManagement.Data >= 1.0.0",
+      "EventManagement.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.9",
       "MySql.EntityFrameworkCore >= 7.0.5",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Venkatsai_Jeevanagar\\.nuget\\packages\\": {}
+    "C:\\Users\\Knight\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagementAPI\\EventManagementAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagementAPI\\EventManagementAPI.csproj",
       "projectName": "EventManagementAPI",
-      "projectPath": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagementAPI\\EventManagementAPI.csproj",
-      "packagesPath": "C:\\Users\\Venkatsai_Jeevanagar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagementAPI\\obj\\",
+      "projectPath": "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagementAPI\\EventManagementAPI.csproj",
+      "packagesPath": "C:\\Users\\Knight\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Venkatsai_Jeevanagar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Knight\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3083,17 +3101,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Data\\EventManagement.Data.csproj": {
-              "projectPath": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Data\\EventManagement.Data.csproj"
+            "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Data\\EventManagement.Data.csproj": {
+              "projectPath": "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Data\\EventManagement.Data.csproj"
             },
-            "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Service\\EventManagement.Service.csproj": {
-              "projectPath": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Service\\EventManagement.Service.csproj"
+            "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Service\\EventManagement.Service.csproj": {
+              "projectPath": "C:\\Users\\Knight\\Documents\\GitHub\\EventManagementAPI\\EventManagement.Service\\EventManagement.Service.csproj"
             }
           }
         }
@@ -3142,19 +3161,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Service\\EventManagement.Service.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Venkatsai_Jeevanagar\\source\\repos\\EventManagement\\EventManagement.Service\\EventManagement.Service.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
